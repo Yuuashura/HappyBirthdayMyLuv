@@ -156,7 +156,7 @@ function initengahan(){
           });
           if(nama){
             window.nama = nama;
-            vketikhalo="Halo, ii " + nama + " ✨✨✨";
+            vketikhalo="Halo, " + nama + " ✨";
             mulainama();
           }
         }
