@@ -150,7 +150,7 @@ function initengahan(){
   var slov=0;function checkslov() {if(slov==1){kolombaru.style="position:relative;transform:scale(1)";otomatis();setTimeout(aktipesan2,400);}}
 
   async function inipesan(){
-    var {isConfirmed : nam} = await swals.fire({
+    var {isConfirmed : nama,} = await swals.fire({
            title: 'Cie Hari Special nih',showCancelButton : false, confirmButtonText :'Lanjut',
           //  cencelButtonText : 'Harus Lanjut',
           });
